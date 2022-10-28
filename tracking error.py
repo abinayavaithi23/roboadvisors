@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 import numpy as np 
 
-def download_etf(symbol,source,start_date='2010-01-01',end_date='2022-01-01'):  
+def download_etf(symbol,source,start_date='2010-01-01',end_date='2022-10-01'):  
     '''
     symbol: "DJUSRE",   
     source: "stooq",    
@@ -19,7 +19,7 @@ def download_etf(symbol,source,start_date='2010-01-01',end_date='2022-01-01'):
 
     return data 
 
-def download_etfs(symbols,source,start_date='2010-01-01',end_date='2022-01-01'):  
+def download_etfs(symbols,source,start_date='2010-01-01',end_date='2022-10-01'):  
     '''
     symbols is a list of ETF symbols
 
